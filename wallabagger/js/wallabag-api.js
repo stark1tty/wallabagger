@@ -1,3 +1,5 @@
+import { FetchApi } from './fetch-api.js';
+
 const WallabagApi = function () { };
 
 WallabagApi.prototype = {
@@ -303,3 +305,5 @@ WallabagApi.prototype = {
             });
     }
 };
+
+export { WallabagApi };
